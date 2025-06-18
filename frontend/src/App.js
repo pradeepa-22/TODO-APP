@@ -12,7 +12,7 @@ function App() {
     setTodos(res.data);
   };
 
-  // Add new todo
+  // Added new todo
   const addTodo = async () => {
     if (!text) return;
     await axios.post("http://localhost:5000/api/todos", {
