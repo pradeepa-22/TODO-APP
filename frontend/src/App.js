@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
+//App component
 function App() {
   const [todos, setTodos] = useState([]);
   const [text, setText] = useState("");
